@@ -5,7 +5,6 @@ import os
 from nodriver import start, cdp, loop
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
-from selen
 
 
 async def main():
