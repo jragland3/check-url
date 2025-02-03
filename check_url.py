@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 async def main():
-    url = 'https://www.viator.com/'
+    url = 'https://www.example.com/'
     driver = await start()
     tab = driver.main_tab
     tab.add_handler(cdp.network.ResponseReceived, status_check)
