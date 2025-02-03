@@ -1,0 +1,9 @@
+selenium==4.27.1
+pytest
+trio
+pytest-trio
+pytest-rerunfailures
+flake8
+requests
+nodriver
+beautifulsoup4
